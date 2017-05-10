@@ -24,7 +24,7 @@ public class JdbcFinalDemo {
             System.out.println("데이터가 없습니다.");
         }
     }
-
+//
     private static void loadDriver(String driverPostgres) {
         try {
             Class.forName(driverPostgres);
