@@ -22,7 +22,7 @@ public class JdbcFinalDemo {
             list.forEach(System.out::println);
         } else {
             System.out.println("데이터가 없습니다.");
-        }
+        }//
     }
 //
     private static void loadDriver(String driverPostgres) {
